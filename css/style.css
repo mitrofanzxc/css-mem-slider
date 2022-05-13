@@ -298,8 +298,7 @@ input[type='checkbox'], input[type='radio'] {
 }
 
 .outer__container {
-  width: 90%;
-  max-width: 67.5rem;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -367,7 +366,13 @@ a {
 }
 
 .button {
-  cursor: pointer;
+  display: none;
+}
+
+.button:checked + label {
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .nav__wrapper {
@@ -401,20 +406,90 @@ a {
   height: 0.625rem;
   background-color: #f8f8f8;
   border-radius: 0.3125rem;
+  opacity: 0.6;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.bar:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.slides {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 910%;
+  height: 100%;
 }
 
 .slider__wrapper {
-  height: 600px;
+  height: 63%;
   margin-top: 1.875rem;
   border: 0.625rem solid #ec7a5c;
   border-radius: 0.625rem;
   overflow: hidden;
 }
 
+.slide {
+  width: 11%;
+  list-style: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .slide-img {
   display: block;
-  width: 55%;
-  height: auto;
-  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+#slide01:checked ~ .current {
+  margin-left: 0;
+}
+
+#slide02:checked ~ .current {
+  margin-left: -11%;
+}
+
+#slide03:checked ~ .current {
+  margin-left: -22%;
+}
+
+#slide04:checked ~ .current {
+  margin-left: -33%;
+}
+
+#slide05:checked ~ .current {
+  margin-left: -44%;
+}
+
+#slide06:checked ~ .current {
+  margin-left: -55%;
+}
+
+#slide07:checked ~ .current {
+  margin-left: -66%;
+}
+
+#slide08:checked ~ .current {
+  margin-left: -77%;
+}
+
+#slide09:checked ~ .current {
+  margin-left: -88%;
+}
+
+#slide10:checked ~ .current {
+  margin-left: -99%;
+}
+
+#slide11:checked ~ .current {
+  margin-left: -110%;
 }
 /*# sourceMappingURL=style.css.map */
