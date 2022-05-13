@@ -1,1 +1,1 @@
-### Deploy link: [cssMemSlider](https://mitrofanzxc.github.io/cssMemSlider)
+### Deploy link: [cssMemSlider](https://mitrofanzxc.github.io/cssMemSlider/)
