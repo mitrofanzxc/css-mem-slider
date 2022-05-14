@@ -6,22 +6,22 @@
 
 Desktop:
 
-<kbd>![screenshot](assets/img/fullScreen.gif)</kbd>
+<kbd>![screenshot](cssMemSlider/assets/img/fullScreen.gif)</kbd>
 
 Mobile:
 
-<kbd>![screenshot](assets/img/mobileView.gif)</kbd>
+<kbd>![screenshot](cssMemSlider/assets/img/mobileView.gif)</kbd>
 
 1. Слайдер позиционируется с равными отступами слева и справа;
 2. Расположение картинок, подписей к ним и контролов:
 
 Desktop:
 
-<kbd>![screenshot](assets/img/fullScreenGrid.png)</kbd>
+<kbd>![screenshot](cssMemSlider/assets/img/fullScreenGrid.png)</kbd>
 
 Mobile:
 
-<kbd>![screenshot](assets/img/mobileGrid.png)</kbd>
+<kbd>![screenshot](cssMemSlider/assets/img/mobileGrid.png)</kbd>
 
 3. Имеется анимация для смены картинок по клику на контролы (например: перелистывание, исчезание, проскроливание и т.д. Главное - анимированная/плавная смена)
 4. Имеется анимация для смены подписей к каринкам по клику на контролы (например: перелистывание, исчезание, проскроливание и т.д. Главное - анимированная/плавная смена)
@@ -30,7 +30,7 @@ Mobile:
 7. Контролы имеют интерактивность (момент наведения, момент нажатия, активный контрол, изменение курсора)
 
 Controls effects:
-<kbd>![screenshot](assets/img/controlsEffects.gif)</kbd>
+<kbd>![screenshot](cssMemSlider/assets/img/controlsEffects.gif)</kbd>
 
 ## Требования к репозиторию и как сабмитить задание
 1. создайте личный публичный репозиторий `cssMemSlider`
