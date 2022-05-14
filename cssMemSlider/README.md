@@ -1,9 +1,5 @@
 ### Deploy link: [cssMemSlider](https://mitrofanzxc.github.io/cssMemSlider/cssMemSlider/)
 
-| Крайний срок сдачи | Имя папки | Имя ветки |
-| ----------- | ------------- | ------------- |
-| 17.10.2021 17:59 UTC (20.59 UTC+3) | cssMemSlider | gh-pages |
-
 # Домашнее задание: CSS Mem Slider
 
 Сверстать слайдер согласно требованиям:
