@@ -1,0 +1,5 @@
+css/**/*.scss
+css/common.css
+css/normalize.css
+css/variables.css
+css/**/*.css.map
