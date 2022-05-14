@@ -355,12 +355,13 @@ input[type='checkbox'], input[type='radio'] {
 .h4 {
   font-family: 'Spartan', sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 0.3125rem;
   font-size: 0.875rem;
-  font-weight: 400;
+  font-weight: 600;
   color: #f8f8f8;
   line-height: 1.25rem;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 a {
@@ -418,10 +419,8 @@ a {
   transition: 0.3s;
 }
 
-.bar:hover, .bar:focus, .bar:active, .bar:checked {
-  opacity: 1;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.bar:hover {
+  border: 1px solid #f8f8f8;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -442,6 +441,10 @@ a {
   width: 1100%;
   height: 100%;
   max-height: 31.25rem;
+}
+
+.slides:nth-child(2) {
+  background-color: black;
 }
 
 .slide {
