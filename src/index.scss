@@ -1,0 +1,232 @@
+@import './styles/normalize.scss';
+@import './styles/reset.scss';
+@import './styles/constants.scss';
+@import './styles/headers.scss';
+@import './styles/indents.scss';
+
+body {
+  @include spartan;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-image: url('./assets/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: $color-white;
+  color: $color-dark;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.button {
+  display: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: $base * 3;
+}
+
+.label-list__item {
+  position: relative;
+  width: $base * 7;
+  height: $base * 3;
+  background-color: $color-orange;
+  border: 0.063rem solid $color-dark;
+  border-radius: 0.3125rem;
+  box-shadow: 0.063rem 0.063rem 0.125rem $color-orange, 0 0 1em $color-blue, 0 0 0.2em $color-blue;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all $transition-03;
+
+  &:hover {
+    border: 0.063rem solid $color-white;
+  }
+}
+
+.label-list__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: $base * 9;
+  height: $base * 9;
+}
+
+.slider {
+  max-width: 31.25rem;
+  margin: 0 auto;
+  border-radius: $base * 3;
+  box-shadow: 0.063rem 0.063rem 0.125rem $color-orange, 0 0 1em $color-blue, 0 0 0.2em $color-blue;
+  overflow: hidden;
+}
+
+.slide-list {
+  display: flex;
+  width: 1100%;
+  height: 100%;
+  max-height: 31.25rem;
+
+  &:nth-child(2) {
+    background-color: black;
+  }
+}
+
+.slide-list__item {
+  width: 9.1%;
+  list-style: none;
+  transition: $transition-03;
+}
+
+.slide-list__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#slide01 {
+  &:checked ~ .slider > .slide-list > .current {
+    margin-left: 0;
+  }
+
+  &:checked ~ .nav > .label-list > label[for='slide01'] {
+    transform: scale(1.1);
+    opacity: 1;
+    transition: $transition-03;
+  }
+}
+
+#slide02 {
+  &:checked ~ .slider > .slide-list > .current {
+    margin-left: -9.1%;
+  }
+
+  &:checked ~ .nav > .label-list > label[for='slide02'] {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: $transition-03;
+  }
+}
+
+#slide03 {
+  &:checked ~ .slider > .slide-list > .current {
+    margin-left: -18.2%;
+  }
+
+  &:checked ~ .nav > .label-list > label[for='slide03'] {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: $transition-03;
+  }
+}
+
+#slide04 {
+  &:checked ~ .slider > .slide-list > .current {
+    margin-left: -27.3%;
+  }
+
+  &:checked ~ .nav > .label-list > label[for='slide04'] {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: $transition-03;
+  }
+}
+
+#slide05 {
+  &:checked ~ .slider > .slide-list > .current {
+    margin-left: -36.4%;
+  }
+
+  &:checked ~ .nav > .label-list > label[for='slide05'] {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: $transition-03;
+  }
+}
+
+#slide06 {
+  &:checked ~ .slider > .slide-list > .current {
+    margin-left: -45.5%;
+  }
+
+  &:checked ~ .nav > .label-list > label[for='slide06'] {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: $transition-03;
+  }
+}
+
+#slide07 {
+  &:checked ~ .slider > .slide-list > .current {
+    margin-left: -54.6%;
+  }
+
+  &:checked ~ .nav > .label-list > label[for='slide07'] {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: $transition-03;
+  }
+}
+
+#slide08 {
+  &:checked ~ .slider > .slide-list > .current {
+    margin-left: -63.7%;
+  }
+
+  &:checked ~ .nav > .label-list > label[for='slide08'] {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: $transition-03;
+  }
+}
+
+#slide09 {
+  &:checked ~ .slider > .slide-list > .current {
+    margin-left: -72.8%;
+  }
+
+  &:checked ~ .nav > .label-list > label[for='slide09'] {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: $transition-03;
+  }
+}
+
+#slide10 {
+  &:checked ~ .slider > .slide-list > .current {
+    margin-left: -81.9%;
+  }
+
+  &:checked ~ .nav > .label-list > label[for='slide10'] {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: $transition-03;
+  }
+}
+
+#slide11 {
+  &:checked ~ .slider > .slide-list > .current {
+    margin-left: -91%;
+  }
+
+  &:checked ~ .nav > .label-list > label[for='slide11'] {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: $transition-03;
+  }
+}

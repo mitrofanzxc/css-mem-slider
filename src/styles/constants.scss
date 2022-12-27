@@ -1,0 +1,64 @@
+// === MIXIN ===
+
+@mixin spartan {
+  font-family: 'Spartan', sans-serif;
+}
+
+// === / MIXIN ===
+
+// === FUNCTIONS ===
+
+@function strip-unit($num) {
+  @return calc($num / ($num * 0 + 1px));
+}
+
+@function rem($num) {
+  @return (calc(strip-unit($num) / 16)) * 1rem;
+}
+
+// === / FUNCTIONS ===
+
+// === VARIABLES ===
+
+$base: rem(4px);
+
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+
+$fs-xs: rem(14px);
+$fs-s: rem(16px);
+$fs-m: rem(18px);
+$fs-l: rem(20px);
+$fs-xl: rem(24px);
+$fs-xxl: rem(34px);
+
+$transition-01: 0.1s;
+$transition-02: 0.2s;
+$transition-03: 0.3s;
+
+$color-dark: rgba(18, 18, 18, 1);
+$color-white: rgba(255, 255, 255, 1);
+$color-grey: rgba(208, 208, 208, 1);
+$color-orange: rgba(236, 122, 92, 1);
+$color-green: rgba(76, 175, 80, 1);
+$color-blue: rgba(0, 3, 51, 1);
+
+$breakpoint-xxs-min: 320px;
+$breakpoint-xs-min: 480px;
+$breakpoint-sm-min: 576px;
+$breakpoint-md-min: 768px;
+$breakpoint-lg-min: 992px;
+$breakpoint-xl-min: 1200px;
+$breakpoint-xxl-min: 1440px;
+
+$breakpoint-xxxs-max: $breakpoint-xxs-min - 1px;
+$breakpoint-xxs-max: $breakpoint-xs-min - 1px;
+$breakpoint-xs-max: $breakpoint-sm-min - 1px;
+$breakpoint-sm-max: $breakpoint-md-min - 1px;
+$breakpoint-md-max: $breakpoint-lg-min - 1px;
+$breakpoint-lg-max: $breakpoint-xl-min - 1px;
+$breakpoint-xl-max: $breakpoint-xxl-min - 1px;
+
+// === / VARIABLES ===

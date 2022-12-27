@@ -1,0 +1,92 @@
+@import './constants.scss';
+
+.h1 {
+  padding: 1.875rem 0 0 0;
+  font-size: $base * 20;
+  color: #ec7a5c;
+  text-shadow: 1px 1px 2px #d61313, 0 0 1em #000333, 0 0 0.2em #000333;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.h2 {
+  font-size: 1.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.h3 {
+  font-family: 'Spartan', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.h4 {
+  font-family: 'Spartan', sans-serif;
+  margin: 0;
+  padding: 0.3125rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #f8f8f8;
+  line-height: 1.25rem;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.fs-xs {
+  font-size: $fs-xs;
+}
+
+.fs-s {
+  font-size: $fs-s;
+}
+
+.fs-m {
+  font-size: $fs-m;
+}
+
+.fs-l {
+  font-size: $fs-l;
+}
+
+.fs-xl {
+  font-size: $fs-xl;
+}
+
+.fs-xxl {
+  font-size: $fs-xxl;
+}
+
+.fw-regular {
+  font-weight: $fw-regular;
+}
+
+.fw-medium {
+  font-weight: $fw-medium;
+}
+
+.fw-bold {
+  font-weight: $fw-bold;
+}

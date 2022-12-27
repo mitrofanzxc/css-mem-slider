@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="css-mem-slider" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>CSS Mem Slider | Dzmitry Karakulka</title>
+  </head>
+  <body class="body">
+    <h1 class="h1">CSS Mem Slider</h1>
+    <main class="wrapper mt-7">
+      <input class="button" type="radio" name="slide" id="slide01" checked />
+      <input class="button" type="radio" name="slide" id="slide02" />
+      <input class="button" type="radio" name="slide" id="slide03" />
+      <input class="button" type="radio" name="slide" id="slide04" />
+      <input class="button" type="radio" name="slide" id="slide05" />
+      <input class="button" type="radio" name="slide" id="slide06" />
+      <input class="button" type="radio" name="slide" id="slide07" />
+      <input class="button" type="radio" name="slide" id="slide08" />
+      <input class="button" type="radio" name="slide" id="slide09" />
+      <input class="button" type="radio" name="slide" id="slide10" />
+      <input class="button" type="radio" name="slide" id="slide11" />
+      <div class="slider">
+        <ul class="slide-list">
+          <li class="slide-list__item current">
+            <img class="slide-list__img" src="../src/assets/images/slide01.jpg" alt="slide01" />
+          </li>
+          <li class="slide-list__item">
+            <img class="slide-list__img" src="../src/assets/images/slide02.jpg" alt="slide02" />
+          </li>
+          <li class="slide-list__item">
+            <img class="slide-list__img" src="../src/assets/images/slide03.jpg" alt="slide03" />
+          </li>
+          <li class="slide-list__item">
+            <img class="slide-list__img" src="../src/assets/images/slide04.jpg" alt="slide04" />
+          </li>
+          <li class="slide-list__item">
+            <img class="slide-list__img" src="../src/assets/images/slide05.jpg" alt="slide05" />
+          </li>
+          <li class="slide-list__item">
+            <img class="slide-list__img" src="../src/assets/images/slide06.jpg" alt="slide06" />
+          </li>
+          <li class="slide-list__item">
+            <img class="slide-list__img" src="../src/assets/images/slide07.jpg" alt="slide07" />
+          </li>
+          <li class="slide-list__item">
+            <img class="slide-list__img" src="../src/assets/images/slide08.jpg" alt="slide08" />
+          </li>
+          <li class="slide-list__item">
+            <img class="slide-list__img" src="../src/assets/images/slide09.jpg" alt="slide09" />
+          </li>
+          <li class="slide-list__item">
+            <img class="slide-list__img" src="../src/assets/images/slide10.jpg" alt="slide10" />
+          </li>
+          <li class="slide-list__item">
+            <img class="slide-list__img" src="../src/assets/images/slide11.jpg" alt="slide11" />
+          </li>
+        </ul>
+        <div class="slide-list">
+          <div class="slide current">
+            <h4 class="h4">Я, як і котик, теж поки не знаю, навіщо цей докер потрібен...</h4>
+          </div>
+          <li class="slide-list__item"><h4 class="h4">Извини, так получилось</h4></li>
+          <li class="slide-list__item"><h4 class="h4">Подумой хорошо</h4></li>
+          <li class="slide-list__item"><h4 class="h4">Аминь!</h4></li>
+          <li class="slide-list__item"><h4 class="h4">Легчайшее капучино</h4></li>
+          <li class="slide-list__item"><h4 class="h4">Спасибо ментору!</h4></li>
+          <li class="slide-list__item"><h4 class="h4">Ну, давай, спроси меня про this...</h4></li>
+          <li class="slide-list__item">
+            <h4 class="h4">Интересно даже, на что опирается бекендер?</h4>
+          </li>
+          <li class="slide-list__item"><h4 class="h4">Цілу ніч, ніби тобі говорю</h4></li>
+          <li class="slide-list__item"><h4 class="h4">Редкостный...</h4></li>
+          <li class="slide-list__item"><h4 class="h4">Не трожь!</h4></li>
+        </div>
+      </div>
+      <nav class="nav mt-7">
+        <ul class="label-list">
+          <label for="slide01" class="label-list__item"
+            ><span class="label-list__button"></span
+          ></label>
+          <label for="slide02" class="label-list__item"
+            ><span class="label-list__button"></span
+          ></label>
+          <label for="slide03" class="label-list__item"
+            ><span class="label-list__button"></span
+          ></label>
+          <label for="slide04" class="label-list__item"
+            ><span class="label-list__button"></span
+          ></label>
+          <label for="slide05" class="label-list__item"
+            ><span class="label-list__button"></span
+          ></label>
+          <label for="slide06" class="label-list__item"
+            ><span class="label-list__button"></span
+          ></label>
+          <label for="slide07" class="label-list__item"
+            ><span class="label-list__button"></span
+          ></label>
+          <label for="slide08" class="label-list__item"
+            ><span class="label-list__button"></span
+          ></label>
+          <label for="slide09" class="label-list__item"
+            ><span class="label-list__button"></span
+          ></label>
+          <label for="slide10" class="label-list__item"
+            ><span class="label-list__button"></span
+          ></label>
+          <label for="slide11" class="label-list__item"
+            ><span class="label-list__button"></span
+          ></label>
+        </ul>
+      </nav>
+    </main>
+  </body>
+</html>
