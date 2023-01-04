@@ -16,8 +16,8 @@
     <title>CSS Mem Slider | Dzmitry Karakulka</title>
   </head>
   <body class="body">
-    <h1 class="h1">CSS Mem Slider</h1>
-    <main class="wrapper mt-7">
+    <main class="wrapper">
+      <h1 class="h1">CSS Mem Slider</h1>
       <input class="button" type="radio" name="slide" id="slide01" checked />
       <input class="button" type="radio" name="slide" id="slide02" />
       <input class="button" type="radio" name="slide" id="slide03" />
@@ -65,10 +65,10 @@
             <img class="slide-list__img" src="../src/assets/images/slide11.jpg" alt="slide11" />
           </li>
         </ul>
-        <div class="slide-list">
-          <div class="slide current">
+        <ul class="slide-list">
+          <li class="slide-list__item current">
             <h4 class="h4">Я, як і котик, теж поки не знаю, навіщо цей докер потрібен...</h4>
-          </div>
+          </li>
           <li class="slide-list__item"><h4 class="h4">Извини, так получилось</h4></li>
           <li class="slide-list__item"><h4 class="h4">Подумой хорошо</h4></li>
           <li class="slide-list__item"><h4 class="h4">Аминь!</h4></li>
@@ -81,10 +81,10 @@
           <li class="slide-list__item"><h4 class="h4">Цілу ніч, ніби тобі говорю</h4></li>
           <li class="slide-list__item"><h4 class="h4">Редкостный...</h4></li>
           <li class="slide-list__item"><h4 class="h4">Не трожь!</h4></li>
-        </div>
+        </ul>
       </div>
-      <nav class="nav mt-7">
-        <ul class="label-list">
+      <nav class="nav">
+        <ul class="label-list mr-1 ml-1">
           <label for="slide01" class="label-list__item"
             ><span class="label-list__button"></span
           ></label>
