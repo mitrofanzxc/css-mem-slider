@@ -1,6 +1,6 @@
-### Deploy link: [cssMemSlider](https://mitrofanzxc.github.io/cssMemSlider/cssMemSlider/)
+### Deploy link: [CSS Slider](https://mitrofanzxc.github.io/css-slider/)
 
-# Домашнее задание: CSS Mem Slider
+# Домашнее задание: CSS Slider
 
 Сверстать слайдер согласно требованиям:
 

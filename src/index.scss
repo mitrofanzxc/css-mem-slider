@@ -15,7 +15,6 @@
   background-repeat: no-repeat;
   background-color: $color-white;
   color: $color-dark;
-  // overflow: hidden;
 }
 
 .wrapper {
@@ -69,12 +68,16 @@
 
 .slider {
   max-width: 31.25rem;
-  // max-width: calc(100vw - ($base * 6));
+  margin-top: $base * 5;
   margin-right: auto;
   margin-left: auto;
   border-radius: $base * 3;
   box-shadow: 0.063rem 0.063rem 0.125rem $color-orange, 0 0 1em $color-blue, 0 0 0.2em $color-blue;
   overflow: hidden;
+
+  @media (max-width: $breakpoint-md-min) {
+    max-width: calc(100vw - ($base * 6));
+  }
 }
 
 .slide-list {
@@ -85,6 +88,10 @@
 
   &:nth-child(2) {
     background-color: $color-dark;
+  }
+
+  @media (max-width: $breakpoint-md-min) {
+    max-height: max-content;
   }
 }
 
